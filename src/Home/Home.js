@@ -20,7 +20,7 @@ function Home() {
      data-aos-easing="linear"
      data-aos-duration="1500">
             <h1>
-              Make Your Life Healthy With Fresh <span3>Veggies</span3> Eat the
+              Cake Your Life Healthy With Fresh <span3>Veggies</span3> Eat the
               Rainbow Daily!
             </h1>
             <p>
