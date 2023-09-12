@@ -1,0 +1,131 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+.navbar {
+  background-color: rgb(104, 85, 255);
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: red;
+}
+.heder {
+  background-color: rgb(240, 237, 236);
+}
+.heder a {
+  color: rgb(104, 85, 255);
+  text-decoration: none;
+  font-weight: bold;
+}
+.heder span {
+  color: black;
+  font-weight: bold;
+}
+span1 {
+  color: rgb(104, 85, 255);
+  font-weight: bold;
+}
+.heder2 {
+  background-color: rgb(18, 214, 18);
+  border-radius: 0 0 100px 0px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(104, 85, 255);
+}
+a:hover {
+  color: black;
+  transition-delay: 0.5s ease;
+}
+span3 {
+  color: rgb(18, 214, 18);
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contt {
+  background-size: cover;
+  height: 50vh;
+
+  background-position: center;
+
+  background-image: url("https://img.freepik.com/premium-photo/fresh-vegetables_181303-634.jpg?w=740");
+}
+@keyframes topDownAnimation {
+  0% {
+    transform: translateY(-4%);
+  }
+  100% {
+    transform: translateY(15%);
+  }
+}
+
+.contt {
+  background-color: #3498db;
+  animation: topDownAnimation 6s linear infinite;
+}
+
+.aboutcon p {
+  text-align: justify;
+}
+.aboutcon h1 {
+  font-weight: bold;
+}
+
+.footer p {
+  text-align: justify;
+  color: white;
+}
+
+.footer h4 {
+  padding: 10px;
+  color: rgb(32, 125, 255);
+}
+.footer {
+  background-color: rgb(104, 85, 255);
+}
+
+span5 {
+  color: red;
+  font-weight: bold;
+}
+
+.mainfooter ul li a {
+  color: white;
+}
+
+.ftt {
+  background-color: rgb(104, 85, 255);
+}
+
+.latestblog {
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+.blogcontent h2 {
+  font-weight: bold;
+  color: rgb(104, 85, 255);
+}
+.blogcontent p {
+  text-align: justify;
+  font-weight: bold;
+  text-align: center;
+}
+.brandmain{
+  background-color: rgb(209,230,235);
+}
+.cardconatin{
+ padding: 50px;
+  margin: auto;
+  width:45%;
+  /* background-color: red; */
+  /* box-shadow: 10px 10px 10px red; */
+}
+.cardr{
+  border: 5px solid red;
+  background-color: red;
+}
