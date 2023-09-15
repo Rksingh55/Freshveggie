@@ -32,7 +32,7 @@ function Nav() {
 
               <div class="col text-end">
                 <span>
-                  <Link> Account</Link>
+                  <Link>Account</Link>
                 </span>
                 <span>
                   <Link>Whitelist</Link>
@@ -140,7 +140,7 @@ function Nav() {
                 style={{ marginRight: "40px" }}
               >
                 <span>
-                  <Link>SignIn</Link>
+                  <Link to="/login">SignIn</Link>
                 </span>
 
                 <span>

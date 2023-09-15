@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function More() {
   return (
-    <div className='' style={{height:"60vh"}}>More</div>
-  )
+    <div className="morepage_main" style={{ height: "60vh" }}>
+      <h1>Be passions work in progress!!</h1>
+    </div>
+  );
 }
 
-export default More
+export default More;

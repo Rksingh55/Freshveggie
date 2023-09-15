@@ -11,26 +11,23 @@ function Review() {
       <div className="branmain mt-5">
         <div
           id="carouselExampleDark"
-          class="carousel carousel-dark slide "
+          class="carousel carousel-dark slide  "
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner " >
-            <div class="carousel-item  active" data-bs-interval="10000" 
-            
-           >
+          <div class="carousel-inner ">
+            <div class="carousel-item  active" data-bs-interval="10000">
               <div
-                className="cardconatin " 
+                className="cardconatin "
                 data-aos="zoom-in-up"
                 data-bs-interval="10000"
               >
                 <div
-                  class="card  "
+                  class="card "
                   style={{
                     width: "35rem",
                     border: "5px solid green",
                     boxShadow: "10px 10px  #66ff66",
-                    backgroundColor:"rgb(204,225,229)"
-                 
+                    backgroundColor: "rgb(204,225,229)",
                   }}
                 >
                   <div class="card-body">
@@ -63,13 +60,12 @@ function Review() {
                       <BsStarFill />
                     </h5>
                     <p class="card-text">
-                     "The Bounty of India: A Kaleidoscope of Vegetables"
-                      India, with its vast and diverse landscape, is not only a
-                      land of cultural richness but also a treasure trove of
-                      vegetables. From the fertile plains of Punjab to the lush
-                      backwaters of Kerala, the country boasts an astonishing
-                      variety of vegetables that form the heart and soul of
-                      Indian cuisine.
+                      "The Bounty of India: A Kaleidoscope of Vegetables" India,
+                      with its vast and diverse landscape, is not only a land of
+                      cultural richness but also a treasure trove of vegetables.
+                      From the fertile plains of Punjab to the lush backwaters
+                      of Kerala, the country boasts an astonishing variety of
+                      vegetables that form the heart and soul of Indian cuisine.
                     </p>
                     <p>
                       vegetables. From the fertile plains of Punjab to the lush
@@ -205,7 +201,6 @@ function Review() {
           </div>
           <button
             class="carousel-control-prev"
-            style={{backgroundColor:"red"}}
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide="prev"

@@ -9,13 +9,13 @@ function Footer() {
             <div class="row">
               <div class="col p-3">
                 <h2 data-aos="zoom-in" style={{ color: "black" }}>
-                  Fresh
+                  Fresh 
                   <span3>Veg</span3>
                 </h2>
                 <p>
-                  Amcare Is A 110 Bed Super Multi-Specialty Hospital Based In
-                  VIP Road, Zirakpur With Over 20+ Super Medical & Surgical
-                  Specialties Supporting Patients .​
+                We are on the top India fresh veg ecoomerce website seller 
+                for the fresh and clean Veggetable.
+                
                 </p>
                 <button className="" style={{backgroundColor:"#66ff66",borderRadius:"15px",padding:"10px"}}>
               <span className="shopnow">Shop Now</span>
@@ -29,15 +29,11 @@ function Footer() {
                   <li>
                     <a href="">Online Reports</a>
                   </li>
-                  <li>
-                    <a href="">specilist</a>
-                  </li>
+                 
                   <li>
                     <a href="">Facilities</a>
                   </li>
-                  <li>
-                    <a href="">Our Doctors</a>
-                  </li>
+                 
                   <li>
                     <a href="">About US</a>
                   </li>

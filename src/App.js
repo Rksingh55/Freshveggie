@@ -15,6 +15,8 @@ import Footer from "./Pages/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Login from "./Pages/Login";
+import Adminpage from "./Pages/Adminpage";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -32,13 +34,14 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/adminpage" element={<Adminpage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/category" element={<Category />} />
-
           <Route path="/more" element={<More />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/createblog" element={<Createblog />} />
           <Route path="/allblog" element={<Allblog />} />
+          <Route path="/login" element={<Login />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
         <Footer />
