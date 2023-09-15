@@ -127,5 +127,5 @@ span5 {
 }
 .cardr{
   border: 5px solid red;
-  background-color: red;
+  /* background-color: red; */
 }

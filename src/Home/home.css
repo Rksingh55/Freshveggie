@@ -115,3 +115,23 @@ span {
 .modal-backdrop.show {
   opacity: 0 !important;
 }
+
+@media(max-width:500px){
+  .banner{
+    height: 100vh;
+  }
+.banner h1{
+  font-size: 20px;
+  text-align:justify ;
+}
+.banner span3{
+  font-size: 20px;
+}
+.banner p{
+  text-align: justify;
+}
+.headcontent h3{
+  margin-left: -100px;
+}
+
+}

@@ -16,11 +16,14 @@ function Home() {
     <>
       <div className="mainhome-page">
         <div className="banner">
-          <div className="content" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+          <div
+            className="content"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <h1>
-              Cake Your Life Healthy With Fresh <span3>Veggies</span3> Eat the
+              Make Your Life Healthy With Fresh <span3>Veggies</span3> Eat the
               Rainbow Daily!
             </h1>
             <p>
@@ -36,7 +39,7 @@ function Home() {
         </div>
         <About />
         <div className="container-fluid latesveg p-4 mt-5">
-          <div className="headcontent lsv">
+          <div className="headcontent lsv " style={{ textAlign: "center" }}>
             <h3>Latest Season Veg</h3>
           </div>
           <div class="container mt-5">
@@ -58,8 +61,9 @@ function Home() {
                     <Link>Shop</Link>
                   </div>
                 </div>
+                <br />
               </div>
-              <div class="col"  data-aos="fade-right">
+              <div class="col" data-aos="fade-right ">
                 {" "}
                 <div class="card" style={{ width: "18rem" }}>
                   <img src="https://img.freepik.com/premium-photo/fresh-vegetables_181303-634.jpg?size=626&ext=jpg&ga=GA1.2.1032257992.1693392948&semt=ais" />
@@ -73,6 +77,7 @@ function Home() {
                     <Link>Shop</Link>
                   </div>
                 </div>
+                <br />
               </div>
               <div class="col" data-aos="fade-left">
                 {" "}
@@ -92,6 +97,7 @@ function Home() {
                     <Link>Shop</Link>
                   </div>
                 </div>
+                <br />
               </div>
               <div class="col" data-aos="fade-left">
                 {" "}
@@ -104,27 +110,24 @@ function Home() {
                   <div class="card-body">
                     <h5 class="card-title">Spinach</h5>
                     <p class="card-text">
-                      Packed with iron, folate, and antioxidants, spinach is a
-                    . Its tender leaves can be enjoyed
-                      raw countless dishes.
+                      Packed with iron, folate, and antioxidants, spinach is a .
+                      Its tender leaves can be enjoyed raw countless dishes.
                     </p>
                     <Link>Shop</Link>
                   </div>
                 </div>
+                <br />
               </div>
             </div>
-          
           </div>
         </div>
-        <Allblog/>
+        {/* <Allblog /> */}
 
-     <div className="mt-5 " >
-     
-      <Product/> 
-      <Brand/>
-      <Review/>
-      </div>
-      
+        <div className="mt-5 ">
+          <Product />
+          <Brand />
+          <Review />
+        </div>
       </div>
     </>
   );

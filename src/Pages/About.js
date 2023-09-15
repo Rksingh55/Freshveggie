@@ -7,13 +7,13 @@ function About() {
         <div class="container">
           <div class="row">
             <div
-              class="col aboutcon p-2"
+              class="col aboutcon p-2 mt-3"
               data-aos="fade-right"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
             >
-              <h3>About Us</h3>
+              <h4 style={{color:"blue" ,fontWeight:"bold"}}>About Us</h4>
               <h1>We Are the India Top Fresh Veg Ecommerce Seller</h1>
               <p>
                 As one of India's leading fresh vegetable e-commerce sellers, we
@@ -87,7 +87,7 @@ function About() {
               </button>
             </div>
             <div
-              class="col "
+              class="col abcon2"
               data-aos="fade-left"
               data-aos-offset="300"
               data-aos-easing="ease-in-sine"

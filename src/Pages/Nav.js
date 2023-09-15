@@ -17,7 +17,7 @@ function Nav() {
         <div className="heder">
           <div class="container">
             <div class="row">
-              <div class="col">
+              <div class="col firstcol">
                 <span>
                   {" "}
                   <span1>Call Us</span1> +91 765887642
@@ -32,7 +32,7 @@ function Nav() {
 
               <div class="col text-end">
                 <span>
-                  <Link>My Account</Link>
+                  <Link> Account</Link>
                 </span>
                 <span>
                   <Link>Whitelist</Link>
@@ -83,13 +83,7 @@ function Nav() {
                     </a>
                   </Link>
                 </li>
-                <li class="nav-item">
-                  <Link to="/item">
-                    <a class="nav-link " aria-current="page" href="#">
-                      Item
-                    </a>
-                  </Link>
-                </li>
+               
 
                 <li class="nav-item">
                   <Link to="/gallery">

@@ -11,27 +11,37 @@ function Review() {
       <div className="branmain mt-5">
         <div
           id="carouselExampleDark"
-          class="carousel carousel-dark slide"
+          class="carousel carousel-dark slide "
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-            <div className="cardconatin" data-aos="zoom-in-up" data-bs-interval="10000">
+          <div class="carousel-inner " >
+            <div class="carousel-item  active" data-bs-interval="10000" 
+            
+           >
+              <div
+                className="cardconatin " 
+                data-aos="zoom-in-up"
+                data-bs-interval="10000"
+              >
                 <div
-                  class="card"
+                  class="card  "
                   style={{
-                    width: "38rem",
+                    width: "35rem",
                     border: "5px solid green",
                     boxShadow: "10px 10px  #66ff66",
-                    backgroundColor: "rgb(209,230,235)",
+                    backgroundColor:"rgb(204,225,229)"
+                 
                   }}
                 >
                   <div class="card-body">
                     <div class="container">
                       <div class="row">
-                        <div class="col"  data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                        <div
+                          class="col"
+                          data-aos="flip-left"
+                          data-aos-easing="ease-out-cubic"
+                          data-aos-duration="2000"
+                        >
                           <img
                             src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60"
                             style={{
@@ -53,7 +63,7 @@ function Review() {
                       <BsStarFill />
                     </h5>
                     <p class="card-text">
-                      Title: "The Bounty of India: A Kaleidoscope of Vegetables"
+                     "The Bounty of India: A Kaleidoscope of Vegetables"
                       India, with its vast and diverse landscape, is not only a
                       land of cultural richness but also a treasure trove of
                       vegetables. From the fertile plains of Punjab to the lush
@@ -67,13 +77,13 @@ function Review() {
                       variety of vegetables that form the heart and soul of
                       Indian cuisine.
                     </p>
-                    <h6 style={{fontWeight:"bold"}}>Date:10-3-2023 </h6>
+                    <h6 style={{ fontWeight: "bold" }}>Date:10-3-2023 </h6>
                   </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-            <div className="cardconatin">
+              <div className="cardconatin">
                 <div
                   class="card"
                   style={{
@@ -83,9 +93,12 @@ function Review() {
                     backgroundColor: "rgb(209,230,235)",
                   }}
                 >
-                  <div class="card-body"  data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                  <div
+                    class="card-body"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
                     <div class="container">
                       <div class="row">
                         <div class="col">
@@ -124,13 +137,13 @@ function Review() {
                       variety of vegetables that form the heart and soul of
                       Indian cuisine.
                     </p>
-                    <h6 style={{fontWeight:"bold"}}>Date:23-5-2023 </h6>
+                    <h6 style={{ fontWeight: "bold" }}>Date:23-5-2023 </h6>
                   </div>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div className="cardconatin" >
+              <div className="cardconatin">
                 <div
                   class="card"
                   style={{
@@ -140,9 +153,12 @@ function Review() {
                     backgroundColor: "rgb(209,230,235)",
                   }}
                 >
-                  <div class="card-body"  data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+                  <div
+                    class="card-body"
+                    data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                  >
                     <div class="container">
                       <div class="row">
                         <div class="col">
@@ -181,7 +197,7 @@ function Review() {
                       variety of vegetables that form the heart and soul of
                       Indian cuisine.
                     </p>
-                    <h6 style={{fontWeight:"bold"}}>Date:2-9-2022 </h6>
+                    <h6 style={{ fontWeight: "bold" }}>Date:2-9-2022 </h6>
                   </div>
                 </div>
               </div>
@@ -189,6 +205,7 @@ function Review() {
           </div>
           <button
             class="carousel-control-prev"
+            style={{backgroundColor:"red"}}
             type="button"
             data-bs-target="#carouselExampleDark"
             data-bs-slide="prev"

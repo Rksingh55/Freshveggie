@@ -1,4 +1,3 @@
-
 import Home from "./Home/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Product from "./Components/product";
@@ -13,13 +12,13 @@ import Gallery from "./Pages/Gallery";
 import Createblog from "./Blog/Createblog";
 import Allblog from "./Blog/Allblog";
 import Footer from "./Pages/Footer";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 function App() {
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
   return (
     <>
       {/* <div className="maindiv"> 
@@ -29,20 +28,20 @@ function App() {
       </div> */}
 
       <BrowserRouter>
-      <Nav/>
+        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/category" element={<Category />} />
-          <Route path="/item" element={<Item />} />
+
           <Route path="/more" element={<More />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/createblog" element={<Createblog />} />
           <Route path="/allblog" element={<Allblog />} />
           {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   );

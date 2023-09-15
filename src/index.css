@@ -297,3 +297,30 @@ outline: none;
 border: none;
 box-shadow: 5px 5px 10px rgb(204, 192, 192);
 }
+@media(max-width:500px){
+  .firstcol{
+    display: none;
+  }
+  .aboutmain{
+    
+  }
+.heder2
+{
+  display: none;
+}
+.banner h1{
+  font-size: 20px;
+}
+.pcard{
+  margin-left: -70px;
+}
+   h3{
+margin-left: -90px;
+}
+
+.abcon2{
+  display: none;
+}
+
+
+}

@@ -72,14 +72,14 @@ function Product() {
 
   return (
     <>
-      <div className="header mt-5" style={{ marginLeft: "140px" }}>
+      <div className="header pheader mt-5" style={{ marginLeft: "140px" }}>
         <h3 style={{ color: "blue", fontWeight: "bold" }}>Latest Products</h3>
       </div>
       <div className="product-list-container mt-5 " data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
         {products.map((product, index) => (
-          <div className="product-card" key={index}>
+          <div className="product-card pcard" key={index}>
             <div className="product-image-container">
               <img
                 src={product.image}

@@ -10,41 +10,53 @@ function Brand() {
         <div className="brandcontent p-4">
           <div class="container">
             <div class="row">
-              <div class="col"  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+              <div
+                class="col"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="card ">
                   <div class="card-body">
                     <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/logo-4.svg" />
                   </div>
-                </div>
+                </div><br/>
               </div>
-              <div class="col"  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+              <div
+                class="col"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="card">
                   <div class="card-body">
                     <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/logo-5.svg" />
                   </div>
-                </div>
+                </div><br/>
               </div>
-              <div class="col"  data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+              <div
+                class="col"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="card">
                   <div class="card-body">
                     <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/logo-2.svg" />
                   </div>
-                </div>
+                </div><br/>
               </div>
-              <div class="col"  data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+              <div
+                class="col"
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
                 <div class="card">
                   <div class="card-body">
                     <img src="https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2021/03/logo-3.svg" />
                   </div>
-                </div>
+                </div><br/>
               </div>
             </div>
           </div>
