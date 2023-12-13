@@ -2,50 +2,62 @@
   text-decoration: none;
   list-style: none;
 }
+
 .navbar {
   background-color: rgb(104, 85, 255);
 }
+
 .navbar a {
   color: white;
   text-decoration: none;
 }
+
 .navbar a:hover {
   color: red;
 }
+
 .heder {
   background-color: rgb(240, 237, 236);
 }
+
 .heder a {
   color: rgb(104, 85, 255);
   text-decoration: none;
   font-weight: bold;
 }
+
 .heder span {
   color: black;
   font-weight: bold;
 }
+
 span1 {
   color: rgb(104, 85, 255);
   font-weight: bold;
 }
+
 .heder2 {
   background-color: rgb(18, 214, 18);
   border-radius: 0 0 100px 0px;
 }
+
 a {
   text-decoration: none;
   font-weight: bold;
   color: rgb(104, 85, 255);
 }
+
 a:hover {
   color: black;
   transition-delay: 0.5s ease;
 }
+
 span3 {
   color: rgb(18, 214, 18);
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .contt {
   background-size: cover;
   height: 50vh;
@@ -54,10 +66,12 @@ span3 {
 
   background-image: url("https://img.freepik.com/premium-photo/fresh-vegetables_181303-634.jpg?w=740");
 }
+
 @keyframes topDownAnimation {
   0% {
     transform: translateY(-4%);
   }
+
   100% {
     transform: translateY(15%);
   }
@@ -71,6 +85,7 @@ span3 {
 .aboutcon p {
   text-align: justify;
 }
+
 .aboutcon h1 {
   font-weight: bold;
 }
@@ -84,6 +99,7 @@ span3 {
   padding: 10px;
   color: rgb(32, 125, 255);
 }
+
 .footer {
   background-color: rgb(104, 85, 255);
 }
@@ -106,26 +122,106 @@ span5 {
   text-align: center;
   margin-top: 80px;
 }
+
 .blogcontent h2 {
   font-weight: bold;
   color: rgb(104, 85, 255);
 }
+
 .blogcontent p {
   text-align: justify;
   font-weight: bold;
   text-align: center;
 }
-.brandmain{
-  background-color: rgb(209,230,235);
+
+.brandmain {
+  background-color: rgb(209, 230, 235);
 }
-.cardconatin{
- padding: 50px;
+
+.cardconatin {
+  padding: 50px;
   margin: auto;
-  width:45%;
+  width: 45%;
   /* background-color: red; */
   /* box-shadow: 10px 10px 10px red; */
 }
-.cardr{
+
+.cardr {
   border: 5px solid red;
   /* background-color: red; */
+}
+
+.mainloginpage {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+@media screen and (max-width:500px) {
+  .loginsec2 {
+    width: 100%;
+  }
+
+  .loginsec1 {
+    display: none;
+  }
+  .loginbtn {
+    width: full;
+    outline: none ;
+    
+  }
+  
+}
+
+.loginsec1 {
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/stir-fry-noodles-with-vegetables-chicken-with-bell-peppers-sauces-spring-roll-desk-against-black-background_23-2148093177.jpg?w=740&t=st=1702450800~exp=1702451400~hmac=c8bd099cf6686f39334f3da6d20d68ce6ebd238f598e4d12928bd61e7357aaf0");
+}
+
+.loginsec2 {
+  width: 50%;
+  background-color: rgb(197, 194, 194);
+}
+
+.loginform1 {
+  width: 70%;
+  margin: auto;
+  margin-top: 20%;
+  background-color: white;
+  border-radius: 20px;
+  height: 60%;
+  padding: 20px;
+}
+
+.loginform2 {
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.loginform2 h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+}
+
+.loginbtn {
+  background-color: rgb(5, 197, 5);
+  color: white;
+  margin-top: 30px;
+  padding: 7px;
+  border-radius: 40px;
+  width: 50%;
+  outline: none ;
+  
+}
+.loginbtn:hover{
+  background-color: #6855FF;
+}
+.loginform2 input{
+  background-color:whitesmoke;
+  border-bottom: 3px solid #6855FF;
 }

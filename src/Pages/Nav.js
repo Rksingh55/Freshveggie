@@ -139,13 +139,11 @@ function Nav() {
                 class="col text-end p-1 mt-2"
                 style={{ marginRight: "40px" }}
               >
-                <span>
-                  <Link to="/login">SignIn</Link>
-                </span>
+                {/* <span style={{marginBottom:"40px"}}>
+                  <Link to="/login">Login</Link>
+                </span> */}
 
-                <span>
-                  <Link>SignOut</Link>
-                </span>
+               
 
                 {/* <button
                   class="btn mt-1 "

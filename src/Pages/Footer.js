@@ -3,7 +3,7 @@ import { BsActivity, BsChevronDoubleRight } from "react-icons/bs";
 function Footer() {
   return (
     <>
-      <div className="mainfooter">
+      <div className="mainfooter ">
         <div className=" footer mt-5">
           <div class="container p-5">
             <div class="row">
