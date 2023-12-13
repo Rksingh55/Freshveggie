@@ -108,14 +108,14 @@ function Nav() {
                     </a>
                   </Link>
                 </li>
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <Link to="/more">
                     {" "}
                     <a class="nav-link " aria-current="page" href="#">
                       More
                     </a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
               <form class="d-flex mx-auto">
                 <input
